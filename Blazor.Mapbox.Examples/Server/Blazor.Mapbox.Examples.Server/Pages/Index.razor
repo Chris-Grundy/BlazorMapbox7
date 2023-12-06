@@ -11,7 +11,9 @@ Welcome to your new app.
     private MapboxMap _Map;
     private Options _Options = new Options()
     {
-        Style = Options.DefaultStyles.Streets
+        Style = Options.DefaultStyles.Streets,
+        Zoom = 9,
+        Center = new Models.LngLat(-74.0060f, 40.7128f) // New York city
     };
 
 }
